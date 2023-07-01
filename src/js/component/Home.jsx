@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "./navbar.jsx";
-import Container from "./container.jsx";
-import Footer from "./footer.jsx";
+import Navbar from "./Navbar.jsx";
+import Container from "./Container.jsx";
+import Footer from "./Footer.jsx";
 
 //Home component
 const Home = () => {
 	return (
-		<div className="root">
+		<div>
 			<Navbar/>
 			<Container/>
 			<Footer/>

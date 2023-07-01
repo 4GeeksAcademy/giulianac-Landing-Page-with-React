@@ -1,6 +1,6 @@
 import React from "react";
-import Jumbotron from "./jumbotron.jsx";
-import Card from "./cards.jsx";
+import Jumbotron from "./Jumbotron.jsx";
+import Card from "./Cards.jsx";
 
 //container component
 const Container = () => {
