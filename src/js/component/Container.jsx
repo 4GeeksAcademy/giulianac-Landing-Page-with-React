@@ -21,7 +21,7 @@ const cardInfo = [
           <>
           {
           cardInfo.map((value,index)=>{
-            return <Card title={value.title} image={value.image} text={value.text}/>
+            return <Card title={value.title} image={value.image} text={value.text} key={index}/>
           })
           }
           </>
